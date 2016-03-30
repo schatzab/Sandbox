@@ -9,10 +9,7 @@ gem 'mysql2', '>= 0.3.13', '< 0.5'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 #gem 'uglifier', '>= 1.3.0'
-# Use CoffeeScript for .coffee assets and views
-#gem 'coffee-rails', '~> 4.1.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+
 
 group :development do
     gem 'capistrano',         require: false
@@ -31,17 +28,11 @@ gem 'acts_as_list', '~> 0.7.2'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 
-# simple authorization solution to help with login
-# gem 'cancan', '~> 1.6', '>= 1.6.10'
-
-# devise is a flexible authentication solution
-#gem 'devise', '~> 3.5', '>= 3.5.6'
-
 
 # Mail Forms
-gem 'mail_form', '~> 1.5', '>= 1.5.1'
+# gem 'mail_form', '~> 1.5', '>= 1.5.1'
 # Simple Form
-gem 'simple_form', '~> 3.2', '>= 3.2.1'
+# gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 
 
@@ -55,17 +46,6 @@ gem 'json', '~> 1.8', '>= 1.8.3'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.10'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
-
-#group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
- # gem 'byebug'
-# end
 
 #group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
