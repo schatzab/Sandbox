@@ -14,14 +14,22 @@ gem 'sass-rails', '~> 5.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+group :development do
+    gem 'capistrano',         require: false
+    gem 'capistrano-rvm',     require: false
+    gem 'capistrano-rails',   require: false
+    gem 'capistrano-bundler', require: false
+    gem 'capistrano3-puma',   require: false
+end
+
+gem 'puma'
+
 # acts_as_list sorting by position
 gem 'acts_as_list', '~> 0.7.2'
 
 # sets up environment variables for all sensitive information
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 
-# PG, PostgreSQL gem
-gem 'pg', '~> 0.18.4'gem 'PG'
 
 # simple authorization solution to help with login
 # gem 'cancan', '~> 1.6', '>= 1.6.10'
@@ -36,17 +44,14 @@ gem 'mail_form', '~> 1.5', '>= 1.5.1'
 gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 
-# Sunspot::Rails is an extension for Solr search.
-# gem 'sunspot_rails', '~> 2.2', '>= 2.2.4'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-#gem 'jbuilder', '~> 2.0'
-# bundle exec rake doc:rails generates the API under doc/api.
-#gem 'sdoc', '~> 0.4.0', group: :doc
+
+# json
+gem 'json', '~> 1.8', '>= 1.8.3'
 
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.10'
