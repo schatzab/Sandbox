@@ -1,7 +1,7 @@
 # Change these
 server '104.236.154.15', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:schatzab/remoteloc.git'
+set :repo_url,        'https://www.github.com/schatzab/remoteloc.git'
 set :application,     'remoteloc'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
