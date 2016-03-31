@@ -30,9 +30,9 @@ gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 
 # Mail Forms
-# gem 'mail_form', '~> 1.5', '>= 1.5.1'
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 # Simple Form
-# gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
 
 
 
