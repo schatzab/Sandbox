@@ -1,8 +1,8 @@
 # Change these
-server '178.62.88.94', port: 7171, roles: [:web, :app, :db], primary: true
+server '104.236.154.15', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:sheharyarn/testapp_rails.git'
-set :application,     'testapp'
+set :repo_url,        'https://www.github.com/schatzab/remoteloc.git'
+set :application,     'remoteloc'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
