@@ -1,8 +1,8 @@
 # Change these
-server '104.236.154.15', port: 22, roles: [:web, :app, :db], primary: true
+server '178.62.88.94', port: 7171, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'https://www.github.com/schatzab/remoteloc.git'
-set :application,     'remoteloc'
+set :repo_url,        'git@github.com:sheharyarn/testapp_rails.git'
+set :application,     'testapp'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
@@ -21,7 +21,7 @@ set :puma_error_log,  "#{release_path}/log/puma.access.log"
 set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
 set :puma_preload_app, true
 set :puma_worker_timeout, nil
-set :puma_init_active_record, true  # Change to false when not using ActiveRecord
+set :puma_init_active_record, false  # Change to true if using ActiveRecord
 
 ## Defaults:
 # set :scm,           :git
@@ -82,3 +82,4 @@ end
 # ps aux | grep puma    # Get puma pid
 # kill -s SIGUSR2 pid   # Restart puma
 # kill -s SIGTERM pid   # Stop puma
+
