@@ -17,6 +17,10 @@ group :development do
 end
 
 gem 'jquery-rails'
+gem 'acts_as_list', '~> 0.7.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+gem 'bcrypt', '~> 3.1.10'
+
 gem 'less-rails'
 gem 'twitter-bootswatch-rails'
 gem 'twitter-bootswatch-rails-helpers'
