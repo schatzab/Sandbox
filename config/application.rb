@@ -9,7 +9,7 @@ if defined?(Bundler)
   Bundler.require(*Rails.groups(:assets => %w(development test)))
 end
 
-APP_NAME = 'TestApp'
+APP_NAME = 'RemoteLoc'
 
 module TestApp
   class Application < Rails::Application

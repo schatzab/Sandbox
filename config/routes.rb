@@ -1,4 +1,4 @@
-TestApp::Application.routes.draw do
+RemoteLoc::Application.routes.draw do
   root :to => 'home#index'
 
   devise_for :users,

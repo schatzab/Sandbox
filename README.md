@@ -1,6 +1,6 @@
 ** NOTE - THIS IS NOT MY OWN WORK AND IS SIMPLY IN BETA TESTING RIGHT NOW. UPDATES FOLLOWING.
 
-Test Rails App
+RemoteLoc App
 ==============
 
 ([For this DigitalOcean guide](https://www.digitalocean.com/community/tutorials/deploying-a-rails-app-on-ubuntu-14-04-with-capistrano-nginx-and-puma))
@@ -14,12 +14,7 @@ App Details
 
 This app uses:
 
- - __Ruby Version:__ `2.2.1`
- - __Rails Version:__ `4.2.0`
- - __Web Server:__ `Puma 2.11.1`
- - __Database:__ `MongoDB`
- - __Database Driver:__ `Mongoid 4.0.2`
- - __Automation Tool:__ `Capistrano 3.4.0`
+ - __Ruby Version:__ `2.3.0`
 
 
 Test Droplet Details
@@ -27,10 +22,9 @@ Test Droplet Details
 
 The Droplet where this App was hosted had:
 
- - __Server IP:__ `178.62.88.94`
- - __SSH Port:__ `7171`
+
  - __User:__ `deploy`
- - __App Name (For Capistrano):__ `testapp`
+ - __App Name (For Capistrano):__ 'remoteloc'
 
 In the DB Installation Step, I installed `MongoDB` since this app uses `Mongoid`.
 
