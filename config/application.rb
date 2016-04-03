@@ -11,7 +11,7 @@ end
 
 APP_NAME = 'RemoteLoc'
 
-module TestApp
+module RemoteLoc
   class Application < Rails::Application
     config.encoding = "utf-8"
     config.filter_parameters += [:password]
