@@ -23,6 +23,6 @@ gem 'bcrypt', '~> 3.1.10'
 
 gem 'puma'
 
-gem 'execjs'
+# gem 'execjs'
 gem 'turbolinks'
 # gem 'therubyracer', '~> 0.12.2'
