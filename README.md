@@ -1,39 +1,28 @@
-** NOTE - THIS IS NOT MY OWN WORK AND IS SIMPLY IN BETA TESTING RIGHT NOW. UPDATES FOLLOWING.
+== README
 
-RemoteLoc App
-==============
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-([For this DigitalOcean guide](https://www.digitalocean.com/community/tutorials/deploying-a-rails-app-on-ubuntu-14-04-with-capistrano-nginx-and-puma))
+Things you may want to cover:
 
-This Rails App has been fully configured with Nginx, Puma and Capistrano. This app isn't meant to be used 
-as a starting point for your Application, this is just an example to take help from.
+* Ruby version
 
+* System dependencies
 
-App Details
------------
+* Configuration
 
-This app uses:
+* Database creation
 
- - __Ruby Version:__ `2.3.0`
+* Database initialization
 
+* How to run the test suite
 
-Test Droplet Details
---------------------
+* Services (job queues, cache servers, search engines, etc.)
 
-The Droplet where this App was hosted had:
+* Deployment instructions
 
-
- - __User:__ `deploy`
- - __App Name (For Capistrano):__ 'remoteloc'
-
-In the DB Installation Step, I installed `MongoDB` since this app uses `Mongoid`.
+* ...
 
 
-Testing on Your own Droplet
----------------------------
-
-If you'd like to test this app on your own droplet, [fork](https://github.com/sheharyarn/testapp_rails/fork)
-this repo and follow the DigitalOcean Guide step-by-step replacing parameters (such as Droplet IP, SSH Port, User, etc.)
-with your Repo URL and Droplet's information.
-
-
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
