@@ -26,5 +26,5 @@ end
 gem 'puma'
 
 
-
+gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
