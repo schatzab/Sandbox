@@ -21,19 +21,8 @@ gem 'acts_as_list', '~> 0.7.2'
 gem 'figaro', '~> 1.1', '>= 1.1.1'
 gem 'bcrypt', '~> 3.1.10'
 
-gem 'less-rails'
-gem 'twitter-bootswatch-rails'
-gem 'twitter-bootswatch-rails-helpers'
-
 gem 'puma'
 
 gem 'execjs'
 gem 'turbolinks'
-gem 'therubyracer'
-
-gem 'awesome_print'
-gem 'quiet_assets'
-
-gem 'devise'
-gem 'mongoid'
-
+# gem 'therubyracer', '~> 0.12.2'
