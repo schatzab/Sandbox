@@ -1,12 +1,19 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.5'
+gem 'mysql2', '>= 0.3.13', '< 0.5'
+gem 'sass-rails', '~> 5.0'
 
-group :assets do
-	gem 'sass-rails', 		'~> 5.0'
-	gem 'coffee-rails', 	'~> 4.1.0'
-	gem 'uglifier', 		'>= 1.3.0'
-end
+
+gem 'therubyracer', platforms: :ruby
+gem 'acts_as_list', '~> 0.7.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
+
+
+gem 'jquery-rails'
+gem 'turbolinks'
+
+gem 'bcrypt', '~> 3.1.10'
 
 group :development do
     gem 'capistrano',         require: false
@@ -16,13 +23,8 @@ group :development do
     gem 'capistrano3-puma',   require: false
 end
 
-gem 'jquery-rails'
-gem 'acts_as_list', '~> 0.7.2'
-gem 'figaro', '~> 1.1', '>= 1.1.1'
-gem 'bcrypt', '~> 3.1.10'
-
 gem 'puma'
 
-# gem 'execjs'
-gem 'turbolinks'
-# gem 'therubyracer', '~> 0.12.2'
+
+
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
