@@ -199,12 +199,11 @@ DEPENDENCIES
   devise
   execjs
   jquery-rails
-  less-rails
   mongoid
   puma
   quiet_assets
   rails (= 4.2.0)
-  sass-rails (~> 5.0)
+  sass-rails (~> 5.0, >= 5.0.4)
   turbolinks
   twitter-bootswatch-rails
   twitter-bootswatch-rails-helpers
