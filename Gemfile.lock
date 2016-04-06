@@ -154,7 +154,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano3-puma
-  execjs
+  execjs (~> 2.6)
   jquery-rails
   puma
   rails (= 4.2.0)
