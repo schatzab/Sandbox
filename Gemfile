@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.0'
+# timezone info, needed
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 
 group :assets do
 	gem 'sass-rails', '~> 5.0', '>= 5.0.4'
@@ -19,15 +21,3 @@ gem 'sqlite3'
 gem 'jquery-rails'
 gem 'puma'
 gem 'turbolinks'
-
-# gem 'execjs', '~> 2.6'
-# gem 'therubyracer', '~> 0.12.2'
-# gem 'awesome_print'
-# gem 'quiet_assets'
-# gem 'less-rails'
-# gem 'twitter-bootswatch-rails'
-# gem 'twitter-bootswatch-rails-helpers'
-# gem 'libv8'
-# gem 'devise'
-# gem 'mongoid'
-# gem 'coffee-rails', 	'~> 4.1.0'
