@@ -1,5 +1,5 @@
 # Change these
-server '192.241.200.250', port: 22, roles: [:web, :app, :db], primary: true
+server '107.170.192.220', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://www.github.com/schatzab/remoteloc.git'
 set :application,     'remoteloc'
