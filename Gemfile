@@ -18,10 +18,9 @@ end
 
 gem 'jquery-rails'
 gem 'puma'
-gem 'execjs', '~> 2.6'
 gem 'turbolinks'
 
-
+# gem 'execjs', '~> 2.6'
 # gem 'therubyracer', '~> 0.12.2'
 # gem 'awesome_print'
 # gem 'quiet_assets'
