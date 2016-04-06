@@ -1,16 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.5'
+gem 'rails', '4.2.0'
 
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'jquery-rails'
-gem 'turbolinks'
-gem 'sdoc', '~> 0.4.0', group: :doc
-
-group :development, :test do
-  gem 'sqlite3'
-  gem 'web-console', '~> 2.0'
+group :assets do
+	gem 'sass-rails', 		'~> 5.0'
+	gem 'coffee-rails', 	'~> 4.1.0'
+	gem 'uglifier', 		'>= 1.3.0'
 end
 
 group :development do
@@ -21,6 +16,20 @@ group :development do
     gem 'capistrano3-puma',   require: false
 end
 
+gem 'jquery-rails'
+gem 'less-rails'
+gem 'twitter-bootswatch-rails'
+gem 'twitter-bootswatch-rails-helpers'
+
 gem 'puma'
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'execjs'
+gem 'turbolinks'
+gem 'therubyracer'
+
+gem 'awesome_print'
+gem 'quiet_assets'
+
+gem 'devise'
+gem 'mongoid'
+
