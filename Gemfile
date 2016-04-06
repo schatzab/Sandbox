@@ -20,12 +20,14 @@ gem 'jquery-rails'
 gem 'less-rails'
 gem 'twitter-bootswatch-rails'
 gem 'twitter-bootswatch-rails-helpers'
+# gem 'sqlite3'
+# gem 'libv8', '~> 4.5', '>= 4.5.95.5'
 
 gem 'puma'
 
 gem 'execjs'
 gem 'turbolinks'
-gem 'therubyracer'
+# gem 'therubyracer', '~> 0.12.2'
 
 gem 'awesome_print'
 gem 'quiet_assets'
