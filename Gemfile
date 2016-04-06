@@ -13,7 +13,7 @@ group :development do
     gem 'capistrano-rails',   require: false
     gem 'capistrano-bundler', require: false
     gem 'capistrano3-puma',   require: false
-    # gem 'sqlite3'
+    gem 'sqlite3'
 end
 
 gem 'jquery-rails'
